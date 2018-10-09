@@ -1,4 +1,4 @@
-![Salt by the power of pillar](https://media.giphy.com/media/F6Q9RxU4Z2KLC/giphy.gif)
+![Salt by the power of pillar](https://raw.githubusercontent.com/jeroennijhof/saltpillar/master/giphy.gif)
 # Salt by the power of pillar
 There are so many ways to implement and use saltstack,<br>
 this is just another way to implement saltstack but with best practices in mind.
