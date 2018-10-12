@@ -1,7 +1,6 @@
 base:
-  'salt':
+  'salt-master*':
     - salt-master
-    - ntp
 develop:
-  'salt-minion':
+  'salt-minion*':
     - ntp
