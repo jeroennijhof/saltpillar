@@ -56,14 +56,13 @@ NTP is used as an example, you can change this in whatever you like.
 As you can see in the pillar top.sls file:
 ```
 base:
-  'salt':
+  'salt-master*':
     - salt-master
-    - ntp
 develop:
-  'salt-minion':
+  'salt-minion*':
     - ntp
 ```
-We use two environments namely base and develop, salt is our salt master and
+We use two environments namely base and develop, salt-master is our salt master and
 salt-minion our salt minion.<br>
 The pillar file salt-master contains all the salt states git repositories and in
 this example the NTP repository:
